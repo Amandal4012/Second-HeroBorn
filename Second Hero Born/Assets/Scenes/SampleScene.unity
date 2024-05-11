@@ -912,7 +912,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4667637e9ed7b7b46a193388612df81e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MoveSpeed: 10
+  MoveSpeed: 7
   RotateSpeed: 75
 --- !u!1 &1199847212
 GameObject:
@@ -1904,6 +1904,10 @@ PrefabInstance:
     - target: {fileID: 4074308816363751695, guid: 13bf1b3d1f10d424cb5b4d7191ccdfc2, type: 3}
       propertyPath: m_Name
       value: Health_Pickup
+      objectReference: {fileID: 0}
+    - target: {fileID: 8683619585492197373, guid: 13bf1b3d1f10d424cb5b4d7191ccdfc2, type: 3}
+      propertyPath: m_Radius
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
